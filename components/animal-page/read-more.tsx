@@ -11,6 +11,7 @@ export const ReadMore = ({ wikipedia_url }: Props) => {
     <div className="space-y-2">
       <h3 className="text-lg font-semibold">Read more:</h3>
       <LinkButton
+        target="_blank"
         href={wikipedia_url || ""}
         className="border-2 border-stone-900 w-max"
       >
